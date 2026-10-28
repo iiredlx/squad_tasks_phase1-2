@@ -1,0 +1,25 @@
+name: squad_tasks
+description: تطبيق إدارة مهام السكواد
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  supabase_flutter: ^2.8.0
+  image_picker: ^1.1.2
+  share_plus: ^10.1.4
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
